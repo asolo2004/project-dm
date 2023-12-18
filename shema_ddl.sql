@@ -47,7 +47,6 @@ CREATE TABLE Отзывы (
   Клиент_ID INTEGER
 );
 CREATE TABLE Товары_в_заказе (
-  ID SERIAL PRIMARY KEY,
   Заказ_ID INTEGER,
   Товар_ID INTEGER,
   Количество INTEGER,
